@@ -93,29 +93,8 @@ a {
   display: block;
 }
 
-.cv-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 24px;
+.wrap-cv h1 {
   margin-bottom: 24px;
-}
-
-.cv-header h1 {
-  margin: 0;
-}
-
-.download {
-  text-decoration: none;
-  border: 1px solid var(--text);
-  padding: 6px 16px;
-  white-space: nowrap;
-  font-size: 0.9rem;
-}
-
-.download:hover {
-  background: var(--text);
-  color: #fff;
 }
 
 .pdf-frame {
@@ -131,11 +110,6 @@ a {
 }
 
 @media (max-width: 640px) {
-  .cv-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-  }
   .wrap {
     flex-direction: column;
     padding: 32px 20px 56px;
